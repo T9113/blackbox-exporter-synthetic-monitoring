@@ -1,0 +1,7 @@
+modules:
+  dns_soa:
+    prober: dns
+    timeout: 3s
+    dns:
+      query_name: "example.com"
+      query_type: "SOA"
